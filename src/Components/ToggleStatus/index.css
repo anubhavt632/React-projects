@@ -1,0 +1,39 @@
+/* Centering the .app div */
+.app {
+  text-align: center;
+}
+
+/* Styling the h1 based on status */
+h1 {
+  font-size: 24px;
+}
+
+.h1-on {
+  color: green;
+}
+
+.h1-off {
+  color: red;
+}
+/* Base styles for all buttons */
+/* Base styles for the button */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background: linear-gradient(90deg, #4caf50 0%, #81c784 100%);
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+/* Hover effect */
+button:hover {
+  background: linear-gradient(90deg, #81c784 0%, #4caf50 100%);
+}
+
+/* Active effect */
